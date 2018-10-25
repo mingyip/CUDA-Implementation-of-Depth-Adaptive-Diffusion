@@ -3,7 +3,7 @@ Depth Adaptive Diffusion
 <p align="center">
   <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/motocycle_blurred.jpg" width="600px">
 </p>
-We implemented a GPU version of paper "A Convex Formulation of Continuous Multi-label Problems". The program takes two stereo images where the position of camera are shifted right in the second image. With some optimization steps, we can calculate the corresponding pixel disparity of two images. The disparity map is an implicit representation of the depth distance between objects and the camera. Lastly, we can achieve depth adaptive diffusion image by blurring objects(pixels) in the background. 
+We implemented a GPU version of paper "A Convex Formulation of Continuous Multi-label Problems" [1]. The program takes two stereo images where the position of camera are shifted right in the second image. With some optimization steps, we can calculate the corresponding pixel disparity of two images. The disparity map is an implicit representation of the depth distance between objects and the camera. Lastly, we can achieve depth adaptive diffusion image by blurring objects(pixels) in the background. 
 
 Build instructions
 ==================
