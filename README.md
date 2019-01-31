@@ -1,7 +1,7 @@
 Depth Adaptive Diffusion
 ==================
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/motocycle_blurred.jpg" width="600px">
+  <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/motocycle_blurred.jpg" width="600px">
 </p>
 We implemented a cuda implementation of depth adaptive diffusion based on the paper "A Convex Formulation of Continuous Multi-label Problems" [1]. The program takes two stereo images where the position of camera are shifted right in the second image. With some optimization steps, we can calculate the corresponding pixel disparity of two images. The disparity map is an implicit representation of the depth distance between objects and the camera. Lastly, we can achieve depth adaptive diffusion image by blurring objects(pixels) in the background. 
 
@@ -24,46 +24,46 @@ Results
   </tr>
   <tr>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/motocycle0.png" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/motocycle0.png" width="270px">
     </th>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/motocycle_blurred.jpg" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/motocycle_blurred.jpg" width="270px">
     </th>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/motocycle_disparity.gif" width="270px">
-    </th>
-  </tr>
-  <tr>
-    <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/room0.jpg" width="270px">
-    </th>
-    <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/room_blurred.jpg" width="270px">
-    </th>
-    <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/room_disparity.gif" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/motocycle_disparity.gif" width="270px">
     </th>
   </tr>
   <tr>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/umbrella0.jpg" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/room0.jpg" width="270px">
     </th>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/umbrella_blurred.jpg" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/room_blurred.jpg" width="270px">
     </th>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/umbrella_disparity.gif" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/room_disparity.gif" width="270px">
     </th>
   </tr>
   <tr>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/desk0.jpg" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/umbrella0.jpg" width="270px">
     </th>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/desk_blurred.jpg" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/umbrella_blurred.jpg" width="270px">
     </th>
     <th>
-      <img src="https://raw.githubusercontent.com/mingyip/GPU-Implementation-of-A-Convex-Formulation-of-Continuous-Multi-label-Problems-/master/images/desk_disparity.gif" width="270px">
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/umbrella_disparity.gif" width="270px">
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/desk0.jpg" width="270px">
+    </th>
+    <th>
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/desk_blurred.jpg" width="270px">
+    </th>
+    <th>
+      <img src="https://raw.githubusercontent.com/mingyip/CUDA-Implementation-of-Depth-Adaptive-Diffusion/master/images/desk_disparity.gif" width="270px">
     </th>
   </tr>
 </table> 
